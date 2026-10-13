@@ -29,7 +29,8 @@
     "lint": "eslint '**/*.ts' && npx prettier --check '**/*.ts' --parser typescript",
     "lint:fix": "eslint '**/*.ts' --fix && npx prettier --write '**/*.ts' --parser typescript",
     "test": "tsc --noEmit && echo 'All specs passed validation. You are ready to push!'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "bench": "vitest bench --run"
   },
   "fig": {
     "dev": {
@@ -78,6 +79,7 @@
   "bugs": "https://github.com/withfig/autocomplete/issues",
   "repository": "https://github.com/withfig/autocomplete",
   "devDependencies": {
+    "@codspeed/vitest-plugin": "^6.0.0",
     "@fig/eslint-config-autocomplete": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
@@ -89,7 +91,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.3.0",
     "prettier": "^3.4.2",
-    "typescript": "~5.5.4"
+    "typescript": "~5.5.4",
+    "vitest": "^4.1.11"
   },
   "dependencies": {
     "@fig/autocomplete-generators": "^2.4.0",

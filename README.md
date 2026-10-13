@@ -1,3 +1,4 @@
+[![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://app.codspeed.io/SIRMARGIN/autocomplete?utm_source=badge)
 [![Badge: macOS](https://img.shields.io/badge/os-%20macOS-light)](#)
 [![Badge: Documentation](https://img.shields.io/badge/documentation-black)](https://fig.io/docs/)
 [![Badge: contributors](https://img.shields.io/github/contributors/withfig/autocomplete)](#Contributors)
